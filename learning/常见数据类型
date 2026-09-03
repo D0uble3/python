@@ -1,0 +1,18 @@
+word=32
+print(isinstance(word,int))#判定数据是否是指定的类型
+s1="Hello"
+s2='hello'
+s3='''欢迎大家光临本店
+祝大家购物愉快'''#字符串定义三种方式
+print(s1)
+print(s2)
+print(s3)
+s4='It\'s a beautiful day'#字符串中包含单引号时，使用转义字符
+msg="Hello,\nPython"#字符串中包含换行符时，使用转义字符
+print(msg)
+msg2="hello,\tPython"#字符串中包含制表符时，使用转义字符
+print(msg2)
+#字符串拼接
+word1="人生苦短"
+word2="我用Python"
+print(word1+"，"+word2)
