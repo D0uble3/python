@@ -1,0 +1,6 @@
+name="su"
+age=18
+pro="软件工程"
+print("大家好，我是%s，今年%s岁，专业是%s"%(name,age,pro))
+name1="张三"
+print(f"大家好，我是{name1}，今年{age}岁，专业是{pro}")
